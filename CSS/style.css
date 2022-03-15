@@ -1,0 +1,72 @@
+h1{
+    font-family: 'Oswald', sans-serif;
+
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header .dropdown {
+    font-family: 'Oswald', sans-serif;
+
+    
+}
+header .dropdown-menu{
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    width: auto;
+}
+header {
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid red; */
+    align-items: center;
+    width: 100 vw;
+    height: 10vh;
+    padding: 0 12px 0 12px;
+    border-width: 100px;
+    border-bottom: 1px solid black;
+
+}
+
+header .titre {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid green; */
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+
+header button {
+    border: 0px ;
+    background-color: white;
+    width: 50px;
+    z-index: 10;
+}
+
+header button .iconify {
+    width: 100%;
+    height: auto;
+}
+section{
+
+    /* border: 1px solid black; */
+    padding :5% ;
+    justify-self: center;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+section .texte{
+    width: 60%;
+}
